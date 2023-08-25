@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  background-color: #292929;
+  width: 20vw;
+  height: 100vh;
+  font-weight: bold;
+}
+
+
+a {
+  color: white;
+}
+
+a:hover {
+  background-color: #F30050;
+  color: white;
+}
