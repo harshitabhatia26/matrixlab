@@ -14,9 +14,10 @@ code {
 
 .nav {
   background-color: #292929;
-  width: 20vw;
+  width: 19vw;
   height: 100vh;
   font-weight: bold;
+  margin:0;
 }
 
 
@@ -30,9 +31,14 @@ a:hover {
 }
 
 .main{
-  background-image: url(./Rectangle 9398.png);
+  background-image: url(./Rectangle 9398.png) ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 80vw;
   opacity: 0.9;
+  position: right;
+  margin-left: auto;
+margin-right: 0;
 }
 
 .cont {
@@ -41,7 +47,7 @@ a:hover {
 }
 
 form {
-  width: 25vw;
+  width: 18rem;
   margin-top: 1rem;
   margin-left: 1rem;
 }
@@ -66,8 +72,8 @@ form {
 }
 
 .card {
-  width: 22vw;
-  margin: 1rem;
+  width: 18rem;
+  margin: 2vw;
   height: auto;
   background-color: #390554;
   color: #F30050;
@@ -78,8 +84,26 @@ form {
   color: white;
 }
 
-.tokens {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
+@media screen and (min-width: 0px){
+  .tokens {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 650px){
+  .tokens {
+    display: grid;
+    grid-template-columns: auto auto ;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .tokens {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
 }

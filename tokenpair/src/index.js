@@ -4,21 +4,15 @@ import './index.css';
 import Navbar from './Navbar'
 import Main from './Main'
 import reportWebVitals from './reportWebVitals';
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <WagmiConfig config={wagmiConfig}>
-      <RainbowKitProvider chains={chains}>
     <div class="cont">
       <Navbar />
       <Main />
     </div>
-    <ConnectButton />
-    </RainbowKitProvider>
-    </WagmiConfig>
   </React.StrictMode>
 );
 

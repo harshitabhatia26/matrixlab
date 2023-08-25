@@ -1,6 +1,5 @@
 import Card from './card';
 import { useState, useEffect } from 'react';
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 
 function Main() {
