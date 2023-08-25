@@ -28,3 +28,58 @@ a:hover {
   background-color: #F30050;
   color: white;
 }
+
+.main{
+  background-image: url(./Rectangle 9398.png);
+  width: 80vw;
+  opacity: 0.9;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  width: 25vw;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.btn-outline-success {
+  margin-left: 0.5rem;
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-success:hover {
+  background-color: #F30050;
+  border: none;
+}
+
+.heading {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 1rem;
+  padding-top: 4rem;
+  font-weight: 500;
+}
+
+.card {
+  width: 22vw;
+  margin: 1rem;
+  height: auto;
+  background-color: #390554;
+  color: #F30050;
+  border-radius: 20px;
+}
+
+.card p {
+  color: white;
+}
+
+.tokens {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
